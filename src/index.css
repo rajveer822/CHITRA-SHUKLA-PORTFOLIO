@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* custom fonts */
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* utility classes from your HTML */
+.editorial-shadow {
+  box-shadow: 0 20px 50px -20px rgba(26, 28, 28, 0.05);
+}
+
+:root {
+  --primary: #715b34;
+  --surface: #f9f9f9;
+  --text: #1a1c1c;
+  --muted: #4d463b;
+}
+
+
+/* @keyframes scrollLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLoop 25s linear infinite;
+} */
+
+/* @keyframes scrollLoop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLoop 30s linear infinite;
+} */
+
+@keyframes scrollLoop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLoop 30s linear infinite;
+}
