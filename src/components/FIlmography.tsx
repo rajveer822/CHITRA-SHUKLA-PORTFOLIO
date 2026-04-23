@@ -109,7 +109,7 @@ const projects = [
   { title: "Broken Frame", director: "Indie", year: "2020", image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCVb56DhCAuRto5GbkGeXgiJo4VOD9dz3-6zR3Ov1pKM8uGCv4Td0o7vo2xi7q0MD0jgAGT3uzgSS5dEfgMai78BdiZdj1x_zz7vE_4N88CThL8eKD032nq13DgtemnX-_gNWHGUE8EDRwa4JAVLWVdpD7KoVdrRX4TMvovTwjICLRppPAIFsJtxq9Jtj47ICfmF2sHa_agf3CYVKLriTm6IgvQIf7H9DPb1ctDpR-mSYQ6r6aw1ECSGn_YELz1vqNU-uimfe7s5g" },
 ]
 
-export default function FilmographyA() {
+export default function Filmography() {
   const [showAll, setShowAll] = useState(false)
   const visible = showAll ? projects : projects.slice(0, 3)
 

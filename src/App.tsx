@@ -25,7 +25,7 @@ export default function App(){
       <CV />
       <DetailedCV />
       <Upcoming />
-      {/* <Filmography /> */}
+      <Filmography />
       <Media/>
       <News />
       <Contact />
