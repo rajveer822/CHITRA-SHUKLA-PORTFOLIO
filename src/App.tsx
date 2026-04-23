@@ -16,7 +16,7 @@ import Upcoming from "./components/Upcoming"
 
 export default function App(){
   return (
-    <div className="bg-[var(--surface)] text-[var(--text)]">
+    <div className="bg-(--surface) text-(--text)">
       <Navbar />
       <Hero />
       <About />
