@@ -63,7 +63,7 @@ export default function Hero() {
         className="absolute inset-0"
       >
         <img
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVQHyEOwL3-9J_W2tdBeAKN15MIs_kks-FGuzE0oEAX_Vb6XYU2iVrWqbN1yP7JU8fGpOALwDSTAA5ta2Yw21V_YT5gnL9Jx--87ADIqbg-omImOCD-8JJlBExa5c_e7lyf-CGaCMVBP2LwsS-6YeulxpVIkJaHTkEIq6msnlNoc2YiqkALM8NsQkfvmxLriYl9XKdBPsiHlFcCLTsEaEvykBLWN41X1iMpJEhnJnpaLdHZ93Va_uV8AqE2W8DmNBcdelund5Ouw" // 👉 your main portrait
+          src="chitra-shukla-5.jpg" // 👉 your main portrait
           className="w-full h-full object-cover object-top"
         />
 
@@ -92,7 +92,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 1 }}
             className="text-6xl md:text-[9rem] font-serif leading-none tracking-tight"
           >
-            ALEXANDER
+            CHITRA
           </motion.h1>
         </div>
 
@@ -103,7 +103,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 1.2 }}
             className="text-6xl md:text-[9rem] font-serif italic font-light leading-none tracking-tight"
           >
-            REED
+            SHUKLA
           </motion.h1>
         </div>
 
