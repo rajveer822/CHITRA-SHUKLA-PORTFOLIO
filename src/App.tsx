@@ -5,7 +5,6 @@ import Showreel from "./components/Showreel"
 import CV from "./components/CV"
 import Filmography from "./components/FIlmography"
 import Media from "./components/Media"
-import News from "./components/News"
 import Contact from "./components/Contact"
 import BackToTop from "./components/Backtotop"
 import Footer from "./components/Footer"
@@ -27,7 +26,6 @@ export default function App(){
       <Upcoming />
       <Filmography />
       <Media/>
-      <News />
       <Contact />
       <BackToTop />
       <Footer />

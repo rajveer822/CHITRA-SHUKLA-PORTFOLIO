@@ -1,51 +1,10 @@
-// import { motion } from "framer-motion"
 
-// export default function Showreel() {
-//   return (
-//     <section className="py-32 bg-gray-100">
-//       <div className="max-w-6xl mx-auto px-6 text-center">
-
-//         <motion.div
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.6 }}
-//           viewport={{ once: true }}
-//           className="mb-12"
-//         >
-//           <span className="text-xs uppercase tracking-[0.3em] text-[var(--primary)] block mb-4">
-//             Performance Portfolio
-//           </span>
-//           <h2 className="text-4xl italic font-serif">
-//             The Showreel 2024
-//           </h2>
-//         </motion.div>
-
-//         <motion.div
-//           initial={{ opacity: 0, scale: 0.9 }}
-//           whileInView={{ opacity: 1, scale: 1 }}
-//           transition={{ duration: 0.7 }}
-//           viewport={{ once: true }}
-//           className="relative group max-w-5xl mx-auto rounded-xl overflow-hidden editorial-shadow"
-//         >
-//           <img
-//             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCot2rlNISKFP3ei_thnr3J2zdhAzPGO9UGjC2PMFOcB-psUl1Ugid1MdW4LMt5rtHoIMGIzvfKZtNS6ON5X1STemk349j6NjNFGj0gjRu39VIcDlWBz5N31AtYzgO6NZiOcP_ks2GF4tFvLzUZd6RuwrNaWwPnxL_9fY_7mOCXzquM_F6VSFGuLiUkNak7xjSWy6xpGnxQuomCKLEVBGy5RS7NiVratpRsXYvoxfHO8m4ETUYx3bQUAQH5vhwWMW-hS6WQk5dgxg"
-//             className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition duration-700"
-//           />
-
-//           {/* play button */}
-//           <div className="absolute inset-0 flex items-center justify-center">
-//             <div className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center group-hover:scale-110 transition">
-//               ▶
-//             </div>
-//           </div>
-//         </motion.div>
-
-//       </div>
-//     </section>
-//   )
 // }
 
-//version with bigger frame
+
+//version with perferct frame
+
+// 
 // import { motion, AnimatePresence } from "framer-motion"
 // import { useState } from "react"
 
@@ -53,57 +12,72 @@
 //   const [open, setOpen] = useState(false)
 
 //   return (
-//     <section className="py-32 bg-gray-100">
-//       <div className="max-w-6xl mx-auto px-6 text-center">
+//     <section className="py-24 bg-gray-100">
+//       <div className="max-w-5xl mx-auto px-6 text-center">
 
 //         {/* heading */}
-//         <div className="mb-12">
-//           <span className="text-xs uppercase tracking-[0.3em] text-[var(--primary)] block mb-4">
+//         <div className="mb-10">
+//           <span className="text-xs uppercase tracking-[0.3em] text-[var(--primary)] block mb-3">
 //             Performance Portfolio
 //           </span>
-//           <h2 className="text-4xl italic font-serif">
+//           <h2 className="text-3xl md:text-4xl italic font-serif">
 //             The Showreel 2024
 //           </h2>
 //         </div>
 
-//         {/* thumbnail */}
+//         {/* 🎬 Video Thumbnail */}
 //         <div
 //           onClick={() => setOpen(true)}
-//           className="relative group max-w-5xl mx-auto rounded-xl overflow-hidden cursor-pointer editorial-shadow"
+//           className="relative group max-w-3xl mx-auto rounded-xl overflow-hidden cursor-pointer editorial-shadow"
 //         >
-//           <img
-//             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCot2rlNISKFP3ei_thnr3J2zdhAzPGO9UGjC2PMFOcB-psUl1Ugid1MdW4LMt5rtHoIMGIzvfKZtNS6ON5X1STemk349j6NjNFGj0gjRu39VIcDlWBz5N31AtYzgO6NZiOcP_ks2GF4tFvLzUZd6RuwrNaWwPnxL_9fY_7mOCXzquM_F6VSFGuLiUkNak7xjSWy6xpGnxQuomCKLEVBGy5RS7NiVratpRsXYvoxfHO8m4ETUYx3bQUAQH5vhwWMW-hS6WQk5dgxg"
-//             className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition duration-700"
-//           />
+//           <div className="aspect-[16/9]">
 
-//           <div className="absolute inset-0 flex items-center justify-center">
-//             <div className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center group-hover:scale-110 transition">
-//               ▶
+//             <img
+//               src="Screenshot 2026-04-25 194326.png"
+//               className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+//             />
+
+//             {/* Light overlay */}
+//             <div className="absolute inset-0 bg-white/10 group-hover:bg-white/20 transition" />
+
+//             {/* Play Button */}
+//             <div className="absolute inset-0 flex items-center justify-center">
+//               <div className="w-16 h-16 rounded-full bg-white/80 text-black flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+//                 ▶
+//               </div>
 //             </div>
+
 //           </div>
 //         </div>
 
-//         {/* modal */}
+//         {/* Modal */}
 //         <AnimatePresence>
 //           {open && (
 //             <motion.div
 //               initial={{ opacity: 0 }}
 //               animate={{ opacity: 1 }}
 //               exit={{ opacity: 0 }}
-//               className="fixed inset-0 bg-black/80 flex items-center justify-center z-50"
-//               onClick={() => setOpen(false)}
+//               className="fixed inset-0 bg-white/90 backdrop-blur-sm flex items-center justify-center z-50"
 //             >
+//               {/* Close Button */}
+//               <button
+//                 onClick={() => setOpen(false)}
+//                 className="absolute top-6 right-6 text-black text-2xl"
+//               >
+//                 ✕
+//               </button>
+
 //               <motion.div
-//                 initial={{ scale: 0.8 }}
+//                 initial={{ scale: 0.9 }}
 //                 animate={{ scale: 1 }}
-//                 exit={{ scale: 0.8 }}
+//                 exit={{ scale: 0.9 }}
 //                 className="w-[90%] max-w-4xl"
 //                 onClick={(e) => e.stopPropagation()}
 //               >
-//                 <div className="aspect-video bg-black">
+//                 <div className="aspect-video bg-black rounded-xl overflow-hidden">
 //                   <iframe
 //                     className="w-full h-full"
-//                     src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+//                     src="https://www.instagram.com/reel/CyDz3uWtcC3/"
 //                     title="Showreel"
 //                     allowFullScreen
 //                   />
@@ -117,10 +91,6 @@
 //     </section>
 //   )
 // }
-
-
-//version with perferct frame
-
 import { motion, AnimatePresence } from "framer-motion"
 import { useState } from "react"
 
@@ -131,7 +101,7 @@ export default function Showreel() {
     <section className="py-24 bg-gray-100">
       <div className="max-w-5xl mx-auto px-6 text-center">
 
-        {/* heading */}
+        {/* Heading */}
         <div className="mb-10">
           <span className="text-xs uppercase tracking-[0.3em] text-[var(--primary)] block mb-3">
             Performance Portfolio
@@ -141,21 +111,24 @@ export default function Showreel() {
           </h2>
         </div>
 
-        {/* 🎬 PERFECT RECTANGLE */}
+        {/* Thumbnail */}
         <div
           onClick={() => setOpen(true)}
-          className="relative group max-w-3xl mx-auto rounded-xl overflow-hidden cursor-pointer editorial-shadow"
+          className="relative group max-w-3xl mx-auto rounded-xl overflow-hidden cursor-pointer"
         >
-          <div className="aspect-[16/9]"> {/* 👈 controlled rectangle */}
+          <div className="aspect-[16/9]">
 
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCot2rlNISKFP3ei_thnr3J2zdhAzPGO9UGjC2PMFOcB-psUl1Ugid1MdW4LMt5rtHoIMGIzvfKZtNS6ON5X1STemk349j6NjNFGj0gjRu39VIcDlWBz5N31AtYzgO6NZiOcP_ks2GF4tFvLzUZd6RuwrNaWwPnxL_9fY_7mOCXzquM_F6VSFGuLiUkNak7xjSWy6xpGnxQuomCKLEVBGy5RS7NiVratpRsXYvoxfHO8m4ETUYx3bQUAQH5vhwWMW-hS6WQk5dgxg"
-              className="w-full h-full object-cover opacity-70 group-hover:scale-105 transition duration-700"
+              src="Screenshot 2026-04-25 194326.png"
+              className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
             />
 
-            {/* overlay */}
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-white/10 group-hover:bg-white/20 transition" />
+
+            {/* Play Button */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center group-hover:scale-110 transition">
+              <div className="w-16 h-16 rounded-full bg-white/80 text-black flex items-center justify-center shadow-lg group-hover:scale-110 transition">
                 ▶
               </div>
             </div>
@@ -163,28 +136,37 @@ export default function Showreel() {
           </div>
         </div>
 
-        {/* modal */}
+        {/* Modal */}
         <AnimatePresence>
           {open && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/80 flex items-center justify-center z-50"
-              onClick={() => setOpen(false)}
+              className="fixed inset-0 bg-white/90 backdrop-blur-sm flex items-center justify-center z-50"
             >
+              {/* Close Button */}
+              <button
+                onClick={() => setOpen(false)}
+                className="absolute top-6 right-6 text-black text-3xl"
+              >
+                ✕
+              </button>
+
               <motion.div
-                initial={{ scale: 0.85 }}
+                initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
-                exit={{ scale: 0.85 }}
+                exit={{ scale: 0.9 }}
                 className="w-[90%] max-w-4xl"
                 onClick={(e) => e.stopPropagation()}
               >
-                <div className="aspect-video bg-black">
+                {/* VIDEO */}
+                <div className="aspect-video bg-black rounded-xl overflow-hidden">
                   <iframe
                     className="w-full h-full"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    src="https://www.youtube.com/embed/PRP0CEbuSbs?autoplay=1"
                     title="Showreel"
+                    allow="autoplay; fullscreen"
                     allowFullScreen
                   />
                 </div>

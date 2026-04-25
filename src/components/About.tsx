@@ -13,9 +13,9 @@ export default function About() {
           viewport={{ once: true }}
           className="md:col-span-5 relative"
         >
-          <div className="aspect-[4/5] overflow-hidden rounded-xl editorial-shadow">
+          <div className="aspect-4/5 overflow-hidden rounded-xl editorial-shadow">
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb12KLSQR5OSbAS88ctZKV01xPT9NaFRmMYBU59TU9JRHfD-udZ8M25as2f0M1SzdqAaVksJaoV8oC-3fBeqfKDWtBK9O2hu1zefRcB20iqL1tYe2wKyxLTH11lRgw4EciDUk6Qf7Y29nJrOGwD3PH4iObqW_jjJ_ZFwYIw9VA879KkdPzIid1OEHOLd3lNWzVy3m1b0YjxjQDPX5yuJVUBb1NhA2vpXbBNbA5Pp1vOYnShemVOsBs849OxMNRlF4MeEA2tYzcsg"
+              src="chitra-shukla_4.webp"
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
             />
           </div>
@@ -38,7 +38,7 @@ export default function About() {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-5xl mb-12 tracking-tight"
           >
-            An evolution of <span className="italic">craft</span> and presence.
+            An artist shaped by <span className="italic"> passion</span> and presence.
           </motion.h2>
 
           {/* Paragraphs stagger */}
@@ -57,8 +57,7 @@ export default function About() {
             className="space-y-6 text-[var(--muted)] leading-relaxed max-w-xl"
           >
             {[
-              "Based in London and working internationally, Alexander Reed is a classically trained actor whose work spans the gritty realism of contemporary film to the grand architectures of the Shakespearean stage.",
-              "A graduate of the Royal Central School of Speech and Drama, he has built a reputation for nuanced, physical performances that explore the intersection of vulnerability and strength."
+              "Chitra Shukla is an Indian actress who predominantly works in Telugu films. She made her debut with Maa Abbayi opposite Sree Vishnu, which marked her Telugu lead debut. Chitra was signed for Maa Abbayi when the makers of the film noticed her in a song from Nenu Sailaja (2016).She went on to work with Raj Tarun in Rangula Ratnam and Allari Naresh in Silly Fellows. Her upcoming films include Kaadal, a love story set in 2004, and Naa Naa, a Tamil film starring Sasikumar."
             ].map((text, i) => (
               <motion.p
                 key={i}
@@ -82,15 +81,15 @@ export default function About() {
             className="mt-12 flex gap-6 items-center"
           >
             <div>
-              <span className="text-xs uppercase tracking-widest text-gray-400">Base</span>
-              <p className="text-sm font-medium">London / New York</p>
+              <span className="text-xs uppercase tracking-widest text-gray-400">LOCATION</span>
+              <p className="text-sm font-medium">"Based in Hyderabad, active in Telugu cinema and OTT productions"</p>
             </div>
 
             <div className="w-px h-8 bg-gray-300" />
 
             <div>
-              <span className="text-xs uppercase tracking-widest text-gray-400">Training</span>
-              <p className="text-sm font-medium">RCSSD, BA Acting</p>
+              {/* <span className="text-xs uppercase tracking-widest text-gray-400">Training</span>
+              <p className="text-sm font-medium">RCSSD, BA Acting</p> */}
             </div>
           </motion.div>
 

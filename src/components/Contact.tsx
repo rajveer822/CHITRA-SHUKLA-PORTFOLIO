@@ -10,7 +10,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="py-32 px-6 max-w-7xl mx-auto">
+    <section id="contact" className="py-32 px-6 max-w-7xl mx-auto">
 
       <div className="grid md:grid-cols-2 gap-20">
 
@@ -32,25 +32,25 @@ export default function Contact() {
           <div className="space-y-10">
             <div>
               <span className="text-xs uppercase tracking-widest text-gray-400 block mb-2">
-                Representation (UK)
+                Representation 
               </span>
               <p className="text-xl font-serif">
                 The Artists Partnership
               </p>
               <p className="text-gray-500">
-                info@theartistspartnership.co.uk
+
               </p>
             </div>
 
             <div>
               <span className="text-xs uppercase tracking-widest text-gray-400 block mb-2">
-                Representation (US)
+                
               </span>
               <p className="text-xl font-serif">
-                United Talent Agency
+                
               </p>
               <p className="text-gray-500">
-                reed.office@unitedtalent.com
+                chitrashukla05@gmail.com
               </p>
             </div>
           </div>
@@ -141,5 +141,5 @@ export default function Contact() {
       </div>
 
     </section>
-  )
-}
+   )
+ }

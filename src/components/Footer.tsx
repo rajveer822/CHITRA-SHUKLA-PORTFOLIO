@@ -14,18 +14,17 @@ export default function Footer() {
           viewport={{ once: true }}
           className="text-lg font-serif tracking-tight"
         >
-          ALEXANDER REED
-        </motion.div>
+          TEAM CHITRA SHUKLA       </motion.div>
 
         {/* Social Links */}
-        <motion.div
+         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
           viewport={{ once: true }}
           className="flex gap-8"
         >
-          {links.map((link, i) => (
+           {links.map((link, i) => (
             <a
               key={i}
               href="#"
@@ -33,11 +32,11 @@ export default function Footer() {
             >
               {link}
 
-              {/* underline animation */}
-              <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-black transition-all duration-300 group-hover:w-full" />
-            </a>
-          ))}
-        </motion.div>
+          //     {/* underline animation */}
+          //     <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-black transition-all duration-300 group-hover:w-full" />
+             </a>
+           ))} 
+        </motion.div> 
 
         {/* Copyright */}
         <motion.div
@@ -47,7 +46,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="text-xs uppercase tracking-widest text-gray-400 text-center md:text-right"
         >
-          © {new Date().getFullYear()} Alexander Reed. All Rights Reserved.
+          © {new Date().getFullYear()} Team Chitra Shukla. All Rights Reserved.
         </motion.div>
 
       </div>
