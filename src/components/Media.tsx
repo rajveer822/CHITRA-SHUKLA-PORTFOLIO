@@ -15,6 +15,9 @@ export default function Media() {
     "Screenshot 2026-04-26 010111.png",
     "chitra-shukla_3.webp",
     "Screenshot 2026-04-25 192505.png",
+    "Screenshot 2026-04-26 161007.png",
+    "Screenshot 2026-04-26 161155.png",
+     "dc-Cover-ucr2dskuaft4qe3jku7etd4e21-20201113174949.Medi.jpeg",
   ]
 
   const visible = showAll ? images : images.slice(0, 4)
@@ -30,8 +33,8 @@ export default function Media() {
         className="mb-20"
       >
         <h2 className="text-6xl md:text-7xl font-serif tracking-tight leading-none italic text-black">
-          Capturing the <br />
-          <span className="not-italic">unseen</span>
+          GALLERY <br />
+          
         </h2>
       </motion.div>
 

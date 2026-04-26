@@ -79,6 +79,8 @@ const projects = [
     director: "Peta Trikoti",
     year: "2024",
     image: "Aho-Vikramaarka-Movie-Review-3.jpg",
+    description: "A Telugu action drama exploring justice and power.",
+    role: "Lead Actress",
     link: "https://www.youtube.com/watch?v=mw8dyLF6cY8",
   },
   {
@@ -87,6 +89,7 @@ const projects = [
     year: "2023",
     image:
       "106.jpg",
+    link:"https://www.youtube.com/watch?v=OelForjg-lA",
   },
 
   {
@@ -95,6 +98,7 @@ const projects = [
     year: "2023",
     image:
       "MV5BZmU3ZGY5ZDgtNmYxOS00ZDdlLTk0YmUtMzY5NWU3YWY1ZWU3XkEyXkFqcGc@._V1_.jpg",
+    link:"https://www.youtube.com/watch?v=XHiun7PE8x4",
   },
 
 
@@ -104,6 +108,7 @@ const projects = [
     year: "2021",
     image:
       "MV5BZDMwYTUyODEtZGE1Ny00NjYwLThlZjMtYjZkNzdmN2JlNDZmXkEyXkFqcGc@._V1_.jpg",
+    link:"https://www.youtube.com/watch?v=x9QROSjMc_g",
   },
 
 
@@ -114,6 +119,8 @@ const projects = [
     year: "2018",
     image:
       "MV5BYmY0ZDM3YzctNGE1Mi00ODM0LWI5YWMtYjBhMGIyNzdkZTVmXkEyXkFqcGc@._V1_.jpg",
+    link:"https://www.youtube.com/watch?v=UXX29E4hGSQ"
+
   },
   {
     title: "Maa Abbayi",
@@ -121,6 +128,7 @@ const projects = [
     year: "2017",
     image:
       "ee3f642eddf2d9f71caa7949a73c93201cef3fff3ebe96ff52fb97294ac71bfc.jpg",
+    link:"https://www.youtube.com/watch?v=3y2KUXKs-sA"
   },
 ]
 
